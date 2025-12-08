@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Momo+Signature&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "poppins";
+}
+
+.container{
+    background-color: black;
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+    border-bottom: 4px solid #AC6CFF;
+}
+
+ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.header-btn{
+    display: flex;
+    gap: 20px;
+}
+.signin{
+    border: none;
+    background-color: black;
+}
+
+.signin a{
+    color: #AC6CFF;
+    text-decoration: none;
+}
+
+.signup{
+    border: none;
+    background-color: #AC6CFF;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+.signup a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.left p{
+    font-size: 61px;
+    line-height: 130%;
+    font-weight: 700;
+    width: 60%;
+}
+.left p span{
+    color: #AC6CFF;
+}
+.left .drive{
+    font-size: 20px;
+    width: 50%;
+    padding: 30px 0px;
+}
+
+.startbutton{
+    display: flex;
+    gap: 20px;
+    
+}
+.startbutton a{
+    color: white;
+    text-decoration: none;
+    border: none;
+    font-size: 16px;
+}
+.startnow{
+    background-color: #AC6CFF;
+    color: white;
+    border-radius: 10px;
+    padding: 15px 30px;
+    border: none;
+    font-weight: 600;
+}
+
+.watchdemo{
+    background-color: #EADAFF;
+    border-radius: 10px;
+    padding: 15px 30px;
+    border: none;
+}
+
+.watchdemo a{
+    color: #AC6CFF;
+}
+
+.right{
+    position: relative;
+}
+.right .hero{
+    width: 550px;
+}
+
+.circle{
+    width: 190px;
+    height: 190px;
+    position: absolute;
+    left: 30px;
+}
