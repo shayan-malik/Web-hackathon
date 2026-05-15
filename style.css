@@ -1252,3 +1252,263 @@ footer .col1 img {
 
 
 }
+
+
+@media (max-width: 360px){
+        .section2 .partners img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .pricing1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(47, 28, 72, 1);
+        width: 245px;
+        height: 335px;
+        border-radius: 30px;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+        .pricingcards {
+        display: block;
+        padding-left: 35px;
+    }
+
+
+        .testimonial {
+            width: 270px;
+    }
+
+
+    .section4 .row1 {
+    display: block;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+    .section4 {
+        padding: 20px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+        .row1 .left img {
+            width: 235px;
+        padding-left: 160px;
+        padding-bottom: 25px;
+    }
+
+        .row1 .right h3 {
+        font-size: 15px;
+        width: 104%;
+    }
+
+
+    .row1 .right {
+    display: block;
+    width: 100%;
+}
+
+    .row1 .right p {
+        font-size: 10px;
+        width: 100%;
+        padding: 10px 0px 20px 0px;
+    }
+
+        .row1 .right button {
+        align-self: flex-start;
+        margin-left: 0px;
+        padding: 5px 15px;
+    }
+    
+    .change {
+    flex-direction: row-reverse;
+    padding-left: 0px;
+}
+
+    .section5 .round {
+        width: 60px;
+        height: 60px;
+    }
+
+        .col1 h3 {
+        font-size: 17px;
+        padding-top: 10px;
+    }
+
+        .col1 p {
+        font-size: 12px;
+    }
+
+        .right .hero {
+        width: 280px;
+    }
+
+        .services {
+        display: block;
+        padding-top: 30px;
+        padding-left: 0px;
+    }
+
+        .ser1 {
+        background-color: #AC6CFF;
+        padding: 25px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 83%;
+        margin-bottom: 30px;
+        text-align: center;
+        height: 140px;
+        border-radius: 20px;
+    }
+
+    .ser1 img {
+        width: 75px;
+        height: 75px;
+    }
+
+        .section3 p {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .circle {
+        width: 90px;
+        height: 90px;
+        position: absolute;
+        left: 28px;
+    }
+
+    .section5, .section2, .section8, footer{
+        display: none;
+    }
+
+        .ser1 {
+        background-color: #AC6CFF;
+        padding: 25px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 70%;
+        margin-bottom: 30px;
+        text-align: center;
+        height: 112px;
+        border-radius: 20px;
+    }
+
+        .pricing1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(47, 28, 72, 1);
+        width: 200px;
+        height: 300px;
+        border-radius: 30px;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+        .pricing1 ul li {
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+        .pricingcards {
+        display: block;
+        padding-left: 0px;
+    }
+
+    .pricing1 .dollar {
+    font-size: 35px;
+    font-weight: 600;
+    color: #AC6CFF;
+}
+
+    .right .hero {
+        width: 210px;
+    }
+
+
+        .section3 p {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .section6 {
+        background-color: rgba(44, 46, 51, 1);
+        padding: 29px 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+        .section6 p {
+        font-size: 15px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+        .testimonial {
+        width: 262px;
+        height: 270px;
+    }
+
+
+        .row1 .left img {
+        width: 235px;
+        padding-left: 77px;
+        padding-bottom: 25px;
+    }
+
+        .pricingcards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+        .copyright p {
+        font-size: 9px;
+        font-weight: 500;
+    }
+
+        .copyright {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 0px solid white;
+        padding: 20px 0px;
+    }
+
+        .circle {
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        left: 48px;
+    }
+
+        .right .hero {
+        width: 250px;
+    }
+
+        .services {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 30px;
+        padding-left: 0px;
+    }
+
+}
